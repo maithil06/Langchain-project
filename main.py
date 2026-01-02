@@ -1,2 +1,2 @@
 import pandas as pd
-import numpuy as np
+import numpy as np
