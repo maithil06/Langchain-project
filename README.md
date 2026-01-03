@@ -32,10 +32,10 @@ This project solves that problem by turning your technical library into a **quer
 
 ---
 
-## 📂 Project Structure
+### 📁 Project Structure
 
-Langchain-project
-tree
+```bash
+Langchain-project/
 ├── data/
 │   └── PDFs/
 ├── chunks/
@@ -49,6 +49,8 @@ tree
 │   └── app.py
 ├── requirements.txt
 └── README.md
+
+
 
 
 
