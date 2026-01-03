@@ -1,0 +1,18 @@
+Introduction to Large Language models
+
+    Python is a high-level, interpreted programming langugage know for its readibility and versatility. It was created by 
+    Guido van Rossum and first released in 1991. Python's desgin philosophy emphasizes code readability and a synatx that
+    allows programmers to express concepts in fewer lines of code compared to other programming languages.
+
+
+    Key features of Python:
+- Readability and simplicity
+- Interpreted and cross-platform
+- Dynamic typing with strong runtime flexibility
+- Rich built-in data structures (list, dict, set, tuple)
+- Extensive standard library ("batteries included")
+- Large ecosystem of third-party packages (PyPI)
+- Supports procedural, object-oriented, and functional programming
+- Automatic memory management (garbage collection)
+- Excellent tooling and community support
+- Easy interoperability with C/C++ and other languages 
