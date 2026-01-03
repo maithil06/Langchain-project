@@ -34,7 +34,8 @@ This project solves that problem by turning your technical library into a **quer
 
 ## 📂 Project Structure
 
-Langchain-project/
+Langchain-project
+tree
 ├── data/
 │   └── PDFs/
 ├── chunks/
@@ -48,6 +49,7 @@ Langchain-project/
 │   └── app.py
 ├── requirements.txt
 └── README.md
+
 
 
 
