@@ -84,6 +84,50 @@ git clone https://github.com/maithil06/Langchain-project
 cd Langchain-project
 pip install -r requirements.txt
 ```
+---
+
+## 🧭 Roadmap
+
+- [ ] Implement vector embedding pipeline  
+- [ ] Add multi-format support (TXT, DOCX, HTML)  
+- [ ] Improve metadata indexing and filtering  
+- [ ] Add UI layer for easier querying  
+- [ ] Integrate cloud storage backends  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+You can:
+- Fork the repository  
+- Create a new feature branch  
+- Submit a pull request  
+- Or reach out if you would like to collaborate on expanding this project  
+
+---
+
+## 📌 License
+
+MIT License
+
+---
+
+## 🙌 Acknowledgements
+
+Built as a learning-first system to improve technical revision, knowledge retrieval, and developer productivity.
+
+---
+
+### 📣 Next Steps
+
+If you would like, I can:
+- Help you align this README with recruiters and portfolio projects  
+- Add architecture diagrams  
+- Or help you write issues and milestones for GitHub
+
+
 
 
 
