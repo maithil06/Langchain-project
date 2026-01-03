@@ -33,3 +33,17 @@ This project solves that problem by turning your technical library into a **quer
 ---
 
 ## 📂 Project Structure
+
+Langchain-project/
+├── data/                  # Input documents (PDFs)
+├── chunks/                # Preprocessed text chunks
+├── metadata/              # Book-level metadata
+├── src/
+│   ├── ingestion.py       # Document loading and preprocessing
+│   ├── chunking.py        # Text chunking pipeline
+│   ├── retrieval.py      # RAG retrieval logic
+│   └── app.py             # Main application entry point
+├── requirements.txt
+└── README.md
+
+
