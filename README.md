@@ -52,6 +52,39 @@ Langchain-project/
 ```
 
 
+---
+
+## 🧩 Current Status
+
+| Stage | Status |
+|------|--------|
+Document Ingestion | ✅ Completed |
+Text Chunking | ✅ Completed |
+Vector Embeddings | 🔄 In Progress |
+RAG Pipeline | 🔄 In Progress |
+Multi-file Support | 🔄 Planned |
+
+---
+
+## 🧪 How It Works
+
+1. Load documents from the `data/` directory  
+2. Preprocess and chunk text  
+3. Store metadata and prepare for vector embedding  
+4. Generate embeddings and store them in ChromaDB  
+5. Query the system in natural language  
+6. Receive referenced answers from original sources
+
+---
+
+## 🧑‍💻 Installation
+
+```bash
+git clone https://github.com/maithil06/Langchain-project
+cd Langchain-project
+pip install -r requirements.txt
+
+
 
 
 
