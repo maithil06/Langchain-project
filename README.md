@@ -1,0 +1,134 @@
+# 📚 Personal RAG System for Technical Books
+
+A Retrieval-Augmented Generation (RAG) system built to query and refresh technical concepts directly from a personal collection of O’Reilly and other ML/AI books.  
+Instead of manually searching PDFs, this system allows you to ask natural language questions and receive **contextual, referenced answers** from the original source material.
+
+---
+
+## 🚀 Why This Project?
+
+While working on multiple Machine Learning and GenAI projects, I often remembered studying a concept earlier in one of my books but had to waste time manually searching chapters to find it again.
+
+This project solves that problem by turning your technical library into a **queryable knowledge base**.
+
+---
+
+## 🧠 What It Does
+
+- Ingests technical books and documents (currently supports PDF)
+- Chunks content for efficient retrieval
+- Stores and uses **book-level metadata** for precise referencing
+- Retrieves relevant context and answers questions with citations
+- Designed to scale across multiple data sources and formats
+
+---
+
+## 🛠️ Tech Stack
+
+- **LangChain** – Pipeline orchestration and RAG framework  
+- **Sentence Transformers** – Semantic embeddings  
+- **ChromaDB** – Vector database for fast retrieval  
+- **Git** – Version control
+
+---
+
+### 📁 Project Structure
+
+```bash
+Langchain-project/
+├── data/
+│   └── PDFs/
+├── chunks/
+│   └── processed_text/
+├── metadata/
+│   └── book_info/
+├── src/
+│   ├── ingestion.py
+│   ├── chunking.py
+│   ├── retrieval.py
+│   └── app.py
+├── requirements.txt
+└── README.md
+```
+
+
+---
+
+## 🧩 Current Status
+
+| Stage | Status |
+|------|--------|
+Document Ingestion | ✅ Completed |
+Text Chunking | ✅ Completed |
+Vector Embeddings | 🔄 In Progress |
+RAG Pipeline | 🔄 In Progress |
+Multi-file Support | 🔄 Planned |
+
+---
+
+## 🧪 How It Works
+
+1. Load documents from the `data/` directory  
+2. Preprocess and chunk text  
+3. Store metadata and prepare for vector embedding  
+4. Generate embeddings and store them in ChromaDB  
+5. Query the system in natural language  
+6. Receive referenced answers from original sources
+
+---
+
+## 🧑‍💻 Installation
+
+```bash
+git clone https://github.com/maithil06/Langchain-project
+cd Langchain-project
+pip install -r requirements.txt
+```
+---
+
+## 🧭 Roadmap
+
+- [ ] Implement vector embedding pipeline  
+- [ ] Add multi-format support (TXT, DOCX, HTML)  
+- [ ] Improve metadata indexing and filtering  
+- [ ] Add UI layer for easier querying  
+- [ ] Integrate cloud storage backends  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+You can:
+- Fork the repository  
+- Create a new feature branch  
+- Submit a pull request  
+- Or reach out if you would like to collaborate on expanding this project  
+
+---
+
+## 📌 License
+
+MIT License
+
+---
+
+## 🙌 Acknowledgements
+
+Built as a learning-first system to improve technical revision, knowledge retrieval, and developer productivity.
+
+---
+
+### 📣 Next Steps
+
+If you would like, I can:
+- Help you align this README with recruiters and portfolio projects  
+- Add architecture diagrams  
+- Or help you write issues and milestones for GitHub
+
+
+
+
+
+
